@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 6301245242947119213}
   - component: {fileID: 8784152148800107904}
   - component: {fileID: 121169627571520442}
+  - component: {fileID: 4211552587038832602}
   m_Layer: 5
   m_Name: MenuButton
   m_TagString: Untagged
@@ -360,7 +361,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8784152148800107904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4211552587038832602}
+        m_TargetAssemblyTypeName: WinMenu, Assembly-CSharp
+        m_MethodName: MainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4211552587038832602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3137238226830998895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399b5630d3b2b674eb106e15d84249a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4632305352481117401
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +753,7 @@ GameObject:
   - component: {fileID: 6113011195232959913}
   - component: {fileID: 375522928239354651}
   - component: {fileID: 7831145228452105425}
+  - component: {fileID: 4236950685706037764}
   m_Layer: 5
   m_Name: NextButton
   m_TagString: Untagged
@@ -837,4 +863,28 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 375522928239354651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4236950685706037764}
+        m_TargetAssemblyTypeName: WinMenu, Assembly-CSharp
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4236950685706037764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8452885375677195886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399b5630d3b2b674eb106e15d84249a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

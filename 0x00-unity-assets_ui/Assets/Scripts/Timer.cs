@@ -19,11 +19,14 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        
-
         timeStart += Time.deltaTime;
         timePlaying = TimeSpan.FromSeconds(timeStart);
         string timerStr = timePlaying.ToString("mm':'ss'.'ff");
         timeText.text = timerStr;
+    }
+
+    public void Win()
+    {
+        //See the WinTrigger script instead.
     }
 }

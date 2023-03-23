@@ -815,6 +815,7 @@ GameObject:
   - component: {fileID: 2668163790538866055}
   - component: {fileID: 4352938411621223578}
   - component: {fileID: 4352938411621223584}
+  - component: {fileID: -897909435042094211}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -975,3 +976,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeStart: 0
   timeText: {fileID: 0}
+--- !u!114 &-897909435042094211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6955624357617555539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d2c3248313d604183e5d89ccdead47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseCanvas: {fileID: 5424577505904824660, guid: 9c8d961aa8b8cec42b2cdac5febcda27, type: 3}

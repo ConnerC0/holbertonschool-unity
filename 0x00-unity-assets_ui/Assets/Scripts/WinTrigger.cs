@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.UI;
 
 public class WinTrigger : MonoBehaviour
 {
-    public TMP_Text finalTime;
+    public Text finalTime;
     public GameObject timerCanvas;
     public GameObject timer;
-    public GameObject finalTimer;
+    public GameObject winCanvas;
     public Collider winFlagCollider;
 
     void OnTriggerEnter (Collider other)
@@ -17,7 +18,7 @@ public class WinTrigger : MonoBehaviour
         if (other.tag == "Player")
         {
             timer.SetActive(false);
-            finalTimer.SetActive(true);
+            winCanvas.SetActive(true);
             finalTime.text = timerCanvas.transform.Find("TimerText").GetComponent<TMP_Text>().text;
             winFlagCollider.enabled = false;
         }
