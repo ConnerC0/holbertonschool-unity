@@ -7890,6 +7890,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5642780474563868600, guid: 15e16982f0044e544b5436adda92b23a, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642780474563868600, guid: 15e16982f0044e544b5436adda92b23a, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642780474563868600, guid: 15e16982f0044e544b5436adda92b23a, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 800
+      objectReference: {fileID: 0}
     - target: {fileID: 7235336573702255370, guid: 15e16982f0044e544b5436adda92b23a, type: 3}
       propertyPath: m_Name
       value: WinCanvas
