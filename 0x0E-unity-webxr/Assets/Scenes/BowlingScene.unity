@@ -3607,13 +3607,6 @@ MonoBehaviour:
   leftLaneBoundary: {fileID: 2033622775}
   rightLaneBoundary: {fileID: 806378603}
   obstacleEndBoundary: {fileID: 510583551}
-  endOfLane: {fileID: 958830692}
-  ballPrefabs:
-  - {fileID: 3106389175557308180, guid: 89f83bee04a567b47a6219620166e49f, type: 3}
-  - {fileID: 2493309318279446662, guid: 0a1f09bcb54e5ad45bbfba36e18c9ba1, type: 3}
-  - {fileID: 3420062234887639702, guid: 47ce8657cba91d64a87d490bfbda9007, type: 3}
-  - {fileID: 366772402192949576, guid: 7c5e3d025b154a047803eb5a7ac57bf3, type: 3}
-  - {fileID: 9027317948909679302, guid: 291972e9980f66343a3169b4762e3a88, type: 3}
   maxObstacles: 10
   heldBall: {fileID: 0}
   canControlCamera: 1
@@ -3695,7 +3688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f566b1e98b539ef4fb0442c1991e7243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MKCamera: {fileID: 888255614}
+  MKCamera: {fileID: 888255611}
   WebXRCameraSet: {fileID: 9052104415714632877}
   ballInteraction: {fileID: 1843461817}
 --- !u!1 &1860648956

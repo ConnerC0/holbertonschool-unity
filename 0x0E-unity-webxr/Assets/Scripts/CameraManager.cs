@@ -5,7 +5,7 @@ using UnityEngine.XR;
 
 public class CameraManager : MonoBehaviour
 {
-    public Camera MKCamera;
+    public GameObject MKCamera;
     public GameObject WebXRCameraSet;
     private Transform activeCameraTransform;
 
@@ -39,7 +39,8 @@ public class CameraManager : MonoBehaviour
 
     private void SwitchCamera()
     {
-        MKCamera.enabled = !isWebXRActive;
+        
+        MKCamera.SetActive(!isWebXRActive);
         WebXRCameraSet.SetActive(isWebXRActive);
 
         // Assign the active camera transform to your player script
