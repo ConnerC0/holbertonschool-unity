@@ -19,7 +19,9 @@ public class SlingShot : MonoBehaviour
     public int remainingAmmo = 7;
     public GameObject manager;
     public TMP_Text ammoText;
+    public TMP_Text scoreText;
     public GameObject slingShot;
+    public int score = 0;
     
     
     
@@ -39,7 +41,7 @@ public class SlingShot : MonoBehaviour
             remainingAmmo--;
             ammoText.text = "Ammo: " + remainingAmmo.ToString() + "/7";
         }
-        else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
         {
             Launch();
         }
@@ -65,7 +67,7 @@ public class SlingShot : MonoBehaviour
         posDifference = currentTouchPos - startTouchPos;
         var rb = ball.GetComponent<Rigidbody>();
         rb.useGravity = true;
-        rb.AddForce(ball.transform.forward * 10, ForceMode.Impulse);
+        rb.AddForce((posDifference/500) *new Vector3(1, 1, 10) , ForceMode.Impulse);
         StartCoroutine("AmmoInFlight");
     }
 
@@ -74,6 +76,11 @@ public class SlingShot : MonoBehaviour
         yield return new WaitForSeconds(ammoFlyTime);
         Destroy(ball);
         ammoInFlight = false;
+    }
+    public void Score()
+    {
+        score += 10; 
+        scoreText.text = score.ToString();
     }
 }
 

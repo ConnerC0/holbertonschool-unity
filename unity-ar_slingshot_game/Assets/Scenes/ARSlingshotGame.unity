@@ -272,7 +272,9 @@ MonoBehaviour:
   remainingAmmo: 7
   manager: {fileID: 2139273714}
   ammoText: {fileID: 474990664}
+  scoreText: {fileID: 1753661392}
   slingShot: {fileID: 19620444}
+  score: 0
 --- !u!1 &129419791
 GameObject:
   m_ObjectHideFlags: 0

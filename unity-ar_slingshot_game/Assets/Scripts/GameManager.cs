@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour
     int score = 0;
     public TMP_Text scoreText;
     public TMP_Text ammoText;
-    int ammoTotal = 7;
 
     void Start()
     {
