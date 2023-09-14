@@ -16,8 +16,6 @@ public class BallInteraction : MonoBehaviour
     public Transform leftLaneBoundary;
     public Transform rightLaneBoundary;
     public Transform obstacleEndBoundary;
-    public GameObject endOfLane;
-    public GameObject[] ballPrefabs;
     public int maxObstacles = 10;
 
     public GameObject heldBall;
