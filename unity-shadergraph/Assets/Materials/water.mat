@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hologram
-  m_Shader: {fileID: -6465566751694194690, guid: 5851f195bf31bfa4fa4cb91b238144d6,
+  m_Name: water
+  m_Shader: {fileID: -6465566751694194690, guid: 5448e797ac2408c41820e91b7a9416f1,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,10 +21,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_f3d9ce76887a414496d5161d350f75bb_Texture_1:
-        m_Texture: {fileID: 2800000, guid: fe04937c1b58cb54fbcb97ec7afc11b5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,7 +39,7 @@ Material:
     - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &1565290074212711586
+--- !u!114 &1705066468207876130
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
